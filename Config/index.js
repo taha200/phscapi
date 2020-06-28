@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // connection URI
-const mongoURI = "mongodb+srv://admin:admin@cluster0-egdam.mongodb.net/test?retryWrites=true&w=majority";
+const mongoURI = "mongodb://taha:taha123@ds361998.mlab.com:61998/phscwellness";
 // remove deprecation warning of collection.ensureIndex
 // mongoose.set('useCreateIndex', true);
 // connect to mongodb
