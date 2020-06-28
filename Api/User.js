@@ -110,7 +110,6 @@ router.get("/get_consalor_by_id", (req, res) => {
   });
 });
 router.get("/get_consalors", (req, res) => {
-  console.log(req.query, "get counsalro");
 
   User.find({ user_type: "Counsalor", acc_status: "Active" }, (err, data) => {
     if (err) {
